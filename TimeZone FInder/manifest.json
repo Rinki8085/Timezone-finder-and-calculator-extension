@@ -1,0 +1,20 @@
+{
+   "name":"Timezone Finder And Calculator",
+   "manifest_version":2,  
+   "version":"2.0.1",
+   "description":"This is a simple extension that displays your current timezone and also you can caluculate anywhere",
+   "author":"rinki",
+   "icons":{
+      "128":"clock.png"
+   },
+   "browser_action":{
+      "default_icon":"clock.png",
+      "default_title":"Timezone Finder & Calculator",
+      "default_popup":"popup.html"
+   },
+   "permissions":[ "activeTab" ],
+   "background":{
+      "scripts":["main.js"]
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
