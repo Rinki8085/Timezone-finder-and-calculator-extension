@@ -1,4 +1,4 @@
-# Timezone-finder-and-calculator-extension
+# Timezone-finder-calculator-Dark-Mode-extension
 --------------------------------------------
 
 It is an extension through that you can get information about time and date, a mini calculator and also a light/dark mode button.
