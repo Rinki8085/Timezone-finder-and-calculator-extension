@@ -12,9 +12,10 @@
       "default_title":"Timezone Finder & Calculator",
       "default_popup":"popup.html"
    },
-   "permissions":[ "activeTab" ],
+   "permissions":[ "activeTab","https://*/*", "http://*/*","tabs" ],
    "background":{
-      "scripts":["main.js"]
+      "scripts":["main.js","popup.js"],
+      "persistent":true
    },
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

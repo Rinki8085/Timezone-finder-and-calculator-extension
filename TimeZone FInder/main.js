@@ -32,6 +32,5 @@ function calculate(){
 }
 
 function des(val){
-
     document.getElementById("textField").value+=val
 }
