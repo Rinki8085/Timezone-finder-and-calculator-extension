@@ -1,7 +1,7 @@
 # Timezone-finder-and-calculator-extension
 --------------------------------------------
 
-It is an extension through that you can get information about time and date and also you can have a mini calculator.
+It is an extension through that you can get information about time and date, a mini calculator and also a light/dark mode button.
 
 ### How to use
  - Just download the zip folder
